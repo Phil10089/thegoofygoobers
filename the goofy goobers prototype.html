@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html class="prevent-select" >
+<head>
+<meta name="google-site-verification" content="aEInGyC6lmJ8dcQj6Ep1irzST_eZkQrsCtBmL6bdG5I" />
+<meta name="viewport" content="width=1024">
+<link id="website-icon" style="border-radius: 100%;" rel="icon" href="http://thegoofygoobers.000.pe/images/goober.png" type="image/x-icon"/>
+<title>The Goofy Goobers</title>
+<meta content="the goofy goobers" property="og:title" />
+<meta content="Small and simple website for my discord server" property="og:description" />
+<meta content="https://thegoofygoobers.000webhostapp.com" property="og:url" />
+<meta content="https://media.discordapp.net/attachments/1160944655073017919/1160944655555371111/IMG_4232.jpg?ex=653fbb77&is=652d4677&hm=d4b71d14d7a327e8be252cc1675bc64fc9c0ca03dfa35e8c78536b5b4d210a38&=" property="og:image" />
+<meta content="#800080" data-react-helmet="true" name="theme-color" />
+  <style>
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+    body {
+		background-image: url('https://media.discordapp.net/attachments/1149341939523665934/1163059102046503002/Untitled.jpg?ex=653e3232&is=652bbd32&hm=ad7253be29752a44abfbd8d989de84a9e122cff99afbf2abfa95a7a47e34ddad&=&width=1400&height=2500')
+    }
+    
+    #fade-in-image.fade-in {
+      opacity: 1;
+    }
+	#website-icon {
+		border-radius: 100%;
+	}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #be85ff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #682eb3;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #be85ff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #682eb3;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+  </style>
+</head>
+<body oncontextmenu="return false;"></body>
+<body>
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="http://thegoofygoobers.000.pe">home</a>
+  <a href="http://thegoofygoobers.000.pe/About">About</a>
+  <a href="https://discord.gg/45jYuqpG7E">Server</a>
+  <a href="http://thegoofygoobers.000.pe/events">Events</a>
+</div>
+
+<div id="main">
+  <button style="color:white;" class="openbtn" onclick="openNav()">☰</button>  
+</div>
+ <br> <br> <br> <br> <center><h1 style="color:white;">Welcome to The Goofy Goobers website</h1> </center>
+  <p>
+  <!-- Add your website content here -->
+<br> <br> <br> <br> <br> <br> <center> <table><a href="http://thegoofygoobers.000.pe/events"><img src="https://media.discordapp.net/attachments/1160944655073017919/1160944655555371111/IMG_4232.jpg?ex=653fbb77&is=652d4677&hm=d4b71d14d7a327e8be252cc1675bc64fc9c0ca03dfa35e8c78536b5b4d210a38&=" style="border-radius: 10%;" height="200" width="150" ></img></a><img src="https://media.discordapp.net/attachments/1150220014172000335/1165281967810551859/1280px-HD_transparent_picture.png?ex=65464867&is=6533d367&hm=e1f768e2910d8706bc5a7ceef5578ef11af9defaa6ee04a0f1ea0d34d04b5bd1&" height="200" width="150" ></img><a href="https://discord.gg/45jYuqpG7E"><img src="https://media.discordapp.net/attachments/1150220014172000335/1163493548868501636/goofy.jpg?ex=653fc6ce&is=652d51ce&hm=77b058fb885b5798d37fa10238ddda7ca9ba5f736e0996161efce8abf9d7247a&=&width=150&height=200" alt="hover your mouse over the image" style="border-radius: 10%;"></img></a></center></table>
+</table>
+  <center> <h2 style="color:white;">⠀⠀⠀⠀events⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀discord server⠀</h2> </center>
+  <script>
+    window.addEventListener('scroll', function() {
+      var scrollText = 	document.getElementById('scroll-text');
+      if (window.scrollY > 100) {
+        scrollText.classList.add('hidden');
+      } else {
+        scrollText.classList.remove('hidden');
+      }
+    });
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+  </script>
+</body>
+</html>
